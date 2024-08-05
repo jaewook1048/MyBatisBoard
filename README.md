@@ -1,6 +1,5 @@
 ## 내용 
-Spting Boot &amp; MyBatis 기술 학습용 게시판
-
+ㅇㅇㅇ
 ## 개발환경
 -IntelliJ IDEA Community Edition 2023.3.3
 -Amazon Corretto 21
