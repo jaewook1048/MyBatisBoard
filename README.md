@@ -1,4 +1,4 @@
-##내용
+## 내용
 Spting Boot &amp; MyBatis 기술 학습용 게시판
 
 ## 개발환경
