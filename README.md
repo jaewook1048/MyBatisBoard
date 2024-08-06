@@ -1,5 +1,5 @@
 ## 내용 
-Spring Boot & Mybatis 기술 학습용 게시판
+회사 프로젝트가 Spring Boot & Mybatis로 진행되어 공부용으로 진행한 게시판
 ## 개발환경
 - IntelliJ IDEA Community Edition 2024.1.3
 - Amazon Corretto 21
