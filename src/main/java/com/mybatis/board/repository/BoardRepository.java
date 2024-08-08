@@ -25,4 +25,8 @@ public class BoardRepository {
     }
 
     public BoardDTO findById(Long id) { return sqlSessionFactory.selectOne("Board.findById", id); }
+
+    public void update(BoardDTO boardDTO) {
+        sqlSessionFactory.update("Board.update", boardDTO);
+    }
 }
