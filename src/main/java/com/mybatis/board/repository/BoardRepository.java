@@ -11,6 +11,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class BoardRepository {
     private final SqlSessionTemplate sqlSessionFactory;
+
     public void save(BoardDTO boardDTO) {
         sqlSessionFactory.insert("Board.save", boardDTO);
     }
@@ -18,4 +19,10 @@ public class BoardRepository {
     public List<BoardDTO> findAll() {
         return sqlSessionFactory.selectList("Board.findAll");
     }
+
+    public void updateHits(Long id) {
+        sqlSessionFactory.update("Board.updateHits", id);
+    }
+
+    public BoardDTO findById(Long id) { return sqlSessionFactory.selectOne("Board.findById", id); }
 }
