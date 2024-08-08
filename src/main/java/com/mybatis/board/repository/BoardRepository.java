@@ -29,4 +29,8 @@ public class BoardRepository {
     public void update(BoardDTO boardDTO) {
         sqlSessionFactory.update("Board.update", boardDTO);
     }
+
+    public void delete(Long id) {
+        sqlSessionFactory.delete("Board.delete", id);
+    }
 }

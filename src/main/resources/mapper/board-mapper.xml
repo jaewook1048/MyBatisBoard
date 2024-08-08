@@ -22,4 +22,7 @@
     <update id="update" parameterType="board">
         update board set boardTitle=#{boardTitle}, boardContents=#{boardContents} where id=#{id}
     </update>
+    <delete id="delete" parameterType="Long">
+        delete from board where id=#{id}
+    </delete>
 </mapper>
