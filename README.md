@@ -1,5 +1,6 @@
 ## 내용 
-회사 프로젝트가 Spring Boot & Mybatis로 진행되어 공부용으로 진행한 게시판  기본적인 CRUD만 구현
+회사 프로젝트가 Spring Boot & Mybatis로 진행되어 공부용으로 진행한 게시판<br/>
+기본적인 CRUD만 구현
 ## 개발환경
 - IntelliJ IDEA Community Edition 2024.1.3
 - Amazon Corretto 21
